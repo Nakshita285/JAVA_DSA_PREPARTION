@@ -16,5 +16,11 @@ public class LoopsIntro {
         for (int i=1; i<=num; i++){
             System.out.print(i + " ");
         }
+
+        // do while loop
+        int n = 1;
+        do{
+            System.out.println("Menu print");
+        }while(n != 1);
     }
 }
