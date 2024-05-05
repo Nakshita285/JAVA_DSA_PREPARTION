@@ -1,0 +1,42 @@
+The if statement is used to execute a block of code based on a condition. If the condition evaluates to true,
+ the block of code inside the if statement is executed. Otherwise, the block of code is skipped.
+1. Basic if Statement:
+    if (condition) {
+        // Block of code to be executed if the condition is true
+    }
+
+2. if-else Statement:
+    if (condition) {
+        // Block of code to be executed if the condition is true
+    } else {
+        // Block of code to be executed if the condition is false
+    }
+3. if-else if-else Statement:
+    if (condition1) {
+        // Block of code to be executed if condition1 is true
+    } else if (condition2) {
+        // Block of code to be executed if condition2 is true
+    } else {
+        // Block of code to be executed if none of the above conditions are true
+    }
+4.  if Statements:
+    if (condition1) {
+        if (condition2) {
+            // Block of code to be executed if both condition1 and condition2 are true
+        }
+    }
+5. Ternary Operator (Conditional Operator):
+    variable = (condition) ? expression1 : expression2;
+
+This is a shorthand way of writing an if-else statement.
+If the condition is true, expression1 is assigned to variable; otherwise, expression2 is assigned to variable.
+
+Example:
+    int x = 10;
+    if (x > 0) {
+        System.out.println("x is positive");
+    } else if (x == 0) {
+        System.out.println("x is zero");
+    } else {
+        System.out.println("x is negative");
+    }
